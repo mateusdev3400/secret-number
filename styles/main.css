@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inter&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-color: #01080E;
+    --blue-color-1: #1354A5;
+    --blue-color-2: #041832;
+    --blue-color-3: #1875E8;
+    --gray-color: #808080;
+    --white-color: #FFFFFF;
+
+    --chakra-petch-font: "Chakra Petch", sans-serif;
+    --inter-font: "Inter", sans-serif;
+}
+
+body {
+    align-items: center;
+    background: 
+        linear-gradient(
+            var(--blue-color-1) 0%, 
+            var(--blue-color-2) 33.33%, 
+            var(--blue-color-2) 66.67%, 
+            var(--black-color) 100%);
+
+    color: var(--white-color);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+body::before {
+    background-image: url("../images/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    height: 100%;
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+}
