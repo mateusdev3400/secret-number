@@ -1,0 +1,116 @@
+.container {
+    align-items: center;
+    background-image: url("../../images/noise.png");
+    background-size: 100% 100%;
+    border: 1px solid var(--blue-color-3);
+    border-radius: 24px;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    display: flex;
+    height: 80%;
+    justify-content: space-between;
+    position: relative;
+    width: 80%;
+}
+
+.container__content {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+}
+
+.container__info {
+    flex: 1;
+    padding: 3rem;
+}
+
+.container__button {
+    background: var(--blue-color-3);
+    border: none;
+    border-radius: 16px;
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 16px 24px;
+    width: 100%;
+}
+
+.container__text {
+    margin: 16px 0 16px 0;
+}
+
+.container__text-blue {
+    color: var(--blue-color-3);
+}
+
+.container__input {
+    background-color: var(--white-color);
+    border: none;
+    border-radius: 16px;
+    color: var(--blue-color-3);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--inter-font);
+    height: 72px;
+    padding: 2rem;
+    width: 100%;
+}
+
+.container__buttons {
+    display: flex;
+    gap: 2em;
+}
+
+.container__image {
+    width: 40%;
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 75px;
+    padding-bottom: 3rem;
+}
+
+p,
+button {
+    font-family: var(--inter-font)
+}
+
+p {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+button:disabled {
+    background-color: var(--gray-color);
+}
+
+/* Responsive */
+@media screen and (max-width: 1250px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .container__button {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    .container__image {
+        display: none;
+    }
+
+    .container__content {
+        display: block;
+        position: inherit;
+    }
+
+    .container__info {
+        padding: 1rem
+    }
+}

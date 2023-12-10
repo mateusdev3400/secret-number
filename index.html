@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Número Secreto v2</title>
+    <link rel="shortcut icon" href="images/robot.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/versions/style-v2.css">
+</head>
+<body>
+    <!-- MAIN -->
+    <main class="container">
+        <section class="container__content">
+            <div class="container__info">
+                <div class="container__text">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem Ipsum is simply dummy text </p>
+                </div>
+
+                <input type="number" min="1" max="10" class="container__input"/>
+
+                <div class="kick container__buttons">
+                    <button 
+                        onclick="checkKick()" 
+                        id="kick"
+                        class="container__button">Chutar</button>
+
+                    <button 
+                        onclick="restartGame()" 
+                        id="restart" 
+                        class="container__button" disabled>Novo jogo</button>
+                </div>
+            </div>
+
+            <img src="images/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__image"/>
+        </div>
+    </div>
+    <!-- MAIN -->
+
+    <!-- SCRIPTS -->
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <script src="js/app-v2.js" defer></script>
+    <!-- SCRIPTS -->
+</body>
+</html>
