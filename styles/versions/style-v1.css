@@ -1,0 +1,59 @@
+.container {
+    align-items: center;
+    background-image: url("../../images/noise.png");
+    border: 1px solid var(--blue-color-3);
+    background-size: 100% 100%;
+    border-radius: 24px;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+    position: relative;
+    width: 1200px;
+}
+
+.container__content {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    position: absolute;
+}
+
+.container__info {
+    flex: 1;
+    padding: 20px;
+}
+
+.container__text {
+    margin: 16px 0 16px 0;
+}
+
+.container__text-blue {
+    color: var(--blue-color-3);
+}
+
+.container__button {
+    background: var(--blue-color-3);
+    border: none;
+    border-radius: 16px;
+    color: var(--white-color);
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 2rem;
+    padding: 16px 24px;
+    width: 100%;
+}
+
+h1 {
+    font-family: var(--chakra-petch-font);
+    font-size: 72px;
+}
+
+h2, p, button {
+    font-family: var(--inter-font);
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
