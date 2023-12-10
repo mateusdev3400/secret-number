@@ -8,6 +8,9 @@ v2: Improvement of the previous application, this time lists and functions were 
 
 ## Layout
 
+Here is the link to access the project - deploy:
+[Secret Number](https://secret-number-kappa.vercel.app/).
+
 ![v1](images/secret-number.gif)
 
 ## How to execute the project?
